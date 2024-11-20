@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm App - Shelter</title>
+    <link rel="stylesheet" href="style_hurricane.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Storm Vision</a>
+            <a href="surge.html">Peak Surge </a>
+            <a href="wind.html">Wind Probabilities</a>
+            <a href="shelters.html">Shelters</a>
+            <a href="evacuation.html">Evacuation routes</a>
+            
+
+
+        </nav>
+    </header>
+
+    <div class = "textbox-container">
+        <div class="textbox-header">Alerts</div>
+        <div class="content expanded">
+        <h1>Alert! <br> Shelters Open </h1>
+        <h2>Category 4 - Hurricane Ian</h2>
+        <p> Hurricane shelters should be located on high ground, 
+            away from coastal areas and flood zones, to avoid storm 
+            surge and flooding. Sturdy, reinforced structures, 
+            such as schools, community centers, or concrete buildings, are ideal. 
+            They should be centrally located near population centers and evacuation 
+            routes for easy access. Home shelters must be reinforced interior spaces 
+            above flood levels, while public shelters should meet wind and flood safety standards. 
+            Accessibility, ventilation, and sufficient space are essential for safety and comfort.
+        </p>
+        </div>
+    </div>
+
+    <div class="toggle-container">
+        <button id="toggleButton" class="toggle-btn">Toggle Labels</button>
+    </div>
+
+    <script async src="https://maps.googleapis.com/maps/api/js?key=%VITE_API_KEY%&v=alpha&libraries=maps3d"></script>
+
+    <script type = "module" src = "shelters.js"></script>
+    <script  src = "box.js"></script>
+
+
+</body>
+</html>

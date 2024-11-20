@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm App - Evacuation Routes</title>
+    <link rel="stylesheet" href="style_hurricane.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Storm Vision</a>
+            <a href="surge.html">Peak Surge </a>
+            <a href="wind.html">Wind Probabilities</a>
+            <a href="shelters.html">Shelters</a>
+            <a href="evacuation.html">Evacuation routes</a>
+         
+
+
+        </nav>
+    </header>
+
+    <div class = "textbox-container">
+        <div class="textbox-header">Alerts</div>
+        <div class="content expanded">
+        <h1>Alert! <br> Evacuation Routes </h1>
+        <h2>Category 4 - Hurricane Ian</h2>
+        <p> Pre-storm, shelters should be near medical facilities, 
+            food and water distribution centers, evacuation routes, 
+            and communication hubs for quick access. Post-storm, 
+            proximity to reopened medical services, emergency food/water supplies, 
+            restored transportation, and communication systems is essential for recovery. 
+            Access to emergency responders helps with both immediate and ongoing needs. 
+            This ensures timely aid and smooth recovery during and after the hurricane. 
+            Being close to critical services enhances safety and overall preparedness.
+        </p>
+        </div>
+    </div>
+
+    <div class="toggle-container">
+        <button id="toggleButton" class="toggle-btn">Toggle Labels</button>
+    </div>
+
+    <div class="explore-container">
+        <button id="exploreButton" class="explore-btn">Area</button>
+    </div>
+
+    <div class="locations-container">
+        <button id="locationsButton" class="locations-btn">Services</button>
+    </div>
+
+    <script async src="https://maps.googleapis.com/maps/api/js?key=%VITE_API_KEY%&v=alpha&libraries=maps3d"></script>
+    <script type = "module"  src = "evacuation.js"></script>
+    <script  src = "box.js"></script>
+
+
+</body>
+</html>

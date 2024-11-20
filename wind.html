@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm App - Winds</title>
+    <link rel="stylesheet" href="style_hurricane.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Storm Vision</a>
+            <a href="surge.html">Peak Surge </a>
+            <a href="wind.html">Wind Probabilities</a>
+            <a href="shelters.html">Shelters</a>
+            <a href="evacuation.html">Evacuation routes</a>
+           
+
+
+        </nav>
+    </header>
+
+    <div class = "textbox-container">
+        <div class="textbox-header">Alerts</div>
+        <div class="content expanded">
+        <h1>Alert! <br> Current Wind Field <br> > 50 Knots </h1>
+        <h2>Category 4 - Hurricane Ian</h2>
+        <p> Cayo Costa, a barrier island off Florida's Gulf Coast, 
+            is particularly vulnerable to storm surges due to its 
+            low elevation and proximity to open waters. A storm surge 
+            at Cayo Costa can have significant environmental, 
+            structural, and ecological impacts.
+        </p>
+        </div>
+    </div>
+
+    <div class="toggle-container">
+        <button id="toggleButton" class="toggle-btn">Toggle Labels</button>
+    </div>
+
+    <div class="explore-container">
+        <button id="exploreButton" class="explore-btn">Wind</button>
+    </div>
+
+    <script async src="https://maps.googleapis.com/maps/api/js?key=%VITE_API_KEY%&v=alpha&libraries=maps3d"></script>
+
+    <script type = "module" src = "wind.js"></script>
+    <script  src = "box.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,256 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "bbox": [
+          -84.9,
+          14.7,
+          -78.3,
+          23.9
+        ],
+        "coordinates": [
+          [
+            -78.3,
+            14.7,
+            0.0
+          ],
+          [
+            -79.3,
+            15.3,
+            0.0
+          ],
+          [
+            -81.0,
+            16.6,
+            0.0
+          ],
+          [
+            -82.5,
+            18.3,
+            0.0
+          ],
+          [
+            -83.7,
+            20.1,
+            0.0
+          ],
+          [
+            -84.5,
+            22.0,
+            0.0
+          ],
+          [
+            -84.9,
+            23.9,
+            0.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A </td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td>72 Hour Forecast Track</td></tr> \n\t            \n             "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "bbox": [
+          -84.9,
+          14.7,
+          -78.3,
+          29.6
+        ],
+        "coordinates": [
+          [
+            -78.3,
+            14.7,
+            0.0
+          ],
+          [
+            -79.3,
+            15.3,
+            0.0
+          ],
+          [
+            -81.0,
+            16.6,
+            0.0
+          ],
+          [
+            -82.5,
+            18.3,
+            0.0
+          ],
+          [
+            -83.7,
+            20.1,
+            0.0
+          ],
+          [
+            -84.5,
+            22.0,
+            0.0
+          ],
+          [
+            -84.9,
+            23.9,
+            0.0
+          ],
+          [
+            -84.8,
+            27.2,
+            0.0
+          ],
+          [
+            -84.1,
+            29.6,
+            0.0
+          ]
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A </td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td>120 Hour Forecast Track</td></tr> \n\t            \n             "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3,
+          14.7,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>Advisory Information</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  2:00 AM EDT September 25, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 14.7 N, -78.3 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 45 knots (50 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 55 knots (65 mph) </td></tr> \n                        <tr><td nowrap>Motion: W </td></tr>\n                        <tr><td nowrap>Minimum Pressure: 1002 mb </td></tr>\n\t       "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3,
+          15.3,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>12 hr Forecast</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  8:00 AM EDT September 25, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 15.3 N, -79.3 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 55 knots (65 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 65 knots (75 mph) </td></tr> \n                        <!-- HIDE_MOTION -->\n                        <!-- HIDE_PRES -->\n\t       "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0,
+          16.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>24 hr Forecast</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  8:00 PM EDT September 25, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 16.6 N, -81.0 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 70 knots (80 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 85 knots (100 mph) </td></tr> \n                        <!-- HIDE_MOTION -->\n                        <!-- HIDE_PRES -->\n\t       "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5,
+          18.3,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>36 hr Forecast</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  8:00 AM EDT September 26, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 18.3 N, -82.5 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 85 knots (100 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 105 knots (120 mph) </td></tr> \n                        <!-- HIDE_MOTION -->\n                        <!-- HIDE_PRES -->\n\t       "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7,
+          20.1,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>48 hr Forecast</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  8:00 PM EDT September 26, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 20.1 N, -83.7 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 100 knots (115 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 120 knots (140 mph) </td></tr> \n                        <!-- HIDE_MOTION -->\n                        <!-- HIDE_PRES -->\n\t       "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5,
+          22.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>60 hr Forecast</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  8:00 AM EDT September 27, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 22.0 N, -84.5 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 115 knots (130 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 140 knots (160 mph) </td></tr> \n                        <!-- HIDE_MOTION -->\n                        <!-- HIDE_PRES -->\n\t       "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9,
+          23.9,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>72 hr Forecast</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  8:00 PM EDT September 27, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 23.9 N, -84.9 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 120 knots (140 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 145 knots (165 mph) </td></tr> \n                        <!-- HIDE_MOTION -->\n                        <!-- HIDE_PRES -->\n\t       "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8,
+          27.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>96 hr Forecast</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  8:00 PM EDT September 28, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 27.2 N, -84.8 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 115 knots (130 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 140 knots (160 mph) </td></tr> \n                        <!-- HIDE_MOTION -->\n                        <!-- HIDE_PRES -->\n\t       "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1,
+          29.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "name": null,
+        "description": " \n\t   \t  <table> \n                        <tr><td><font color=black><b>Tropical Storm Ian (AL092022)</b></font></td></tr> \n                        <tr><td>Advisory #8A</td></tr> \n                        <tr><td><hr></td></tr> \n                        <tr><td nowrap>120 hr Forecast</td></tr> \n\t   \t        <tr><td nowrap>Valid at:  8:00 PM EDT September 29, 2022 </td></tr> \n\t   \t        <tr><td nowrap>Location: 29.6 N, -84.1 W </td></tr> \n\t   \t        <tr><td nowrap>Maximum Wind: 80 knots (90 mph) </td></tr> \n\t   \t        <tr><td nowrap>Wind Gusts: 100 knots (115 mph) </td></tr> \n                        <!-- HIDE_MOTION -->\n                        <!-- HIDE_PRES -->\n\t       "
+      }
+    }
+  ]
+}

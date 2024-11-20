@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "distanceMeters": 13523,
+      "duration": "910s",
+      "polyline": {
+        "encodedPolyline": "i~glDprhwN@|@`A?Oco@IsfBCcASeAMa@g@{@g@k@sAeAk@q@k@cASg@a@{AMkAEoAAuQGgA[gBiAsFOmAEaB?q^HyATwA^kAd@aAj@kA^gAToAJ}AHcm@KaBUyAi@qBWgBE{AJgk@DyOCwz@BQByC@mGKCuE?kCBKBsw@FgDAwk@DwnBFcAGsAWaA_@eAm@u@o@cDuDkAkAISIKaAm@{@]qASmCAi@EBqMA}KEyBBu@IOKkECMKUuNCSDa@TUBgHCKGEQ@_DGGQANmCHgAjAB"
+      }
+    }
+  ]
+}

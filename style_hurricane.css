@@ -1,0 +1,210 @@
+/* Reset body styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; 
+
+}
+
+
+
+header { 
+    width:100%;
+    max-width:100%;
+    padding-left:30px; 
+    height: 50px; 
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+header nav a{
+    color: white ; 
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-decoration: none; 
+
+}
+
+a.active{
+    background: #2739db;
+    border-radius: 2px;
+}
+
+a:hover{
+    background: #2739db;
+    border-radius: 2px;
+}
+
+
+
+/* Text box styling */
+.textbox-container {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 300px; /* Fixed width for consistency */
+    overflow: hidden; /* Ensures no content spills out during transition */
+}
+
+/*Textbox Header */
+.textbox-container {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 450px; /* Fixed width for consistent sizing */
+    overflow: hidden; /* Prevents content overflow outside the container */
+}
+
+.textbox-header {
+    background-color: #007BFF; /* Blue color for the header */
+    color: white;
+    padding: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content {
+    padding: 20px;
+    max-height: 300px; /* Limit height for scrolling */
+    overflow-y: auto; /* Enables vertical scrolling */
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.content.hidden {
+    max-height: 0;
+    padding: 0 20px; /* Horizontal padding remains */
+}
+
+.content.expanded {
+    max-height: 300px; /* Matches expanded state with scroll bar */
+    padding: 20px;
+}
+
+/* Optional: Customize scrollbar appearance for better aesthetics */
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #0056b3; /*#007BFF*/
+    border-radius: 4px;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background: #0056b3;
+}
+
+
+/* Toggle on/off button styling */
+
+
+.toggle-container {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid  #2739db;
+    border-radius: 5px;
+    background-color: #2739db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.toggle-btn.active {
+    background-color: #7bd48e;
+    color: #fff;
+    border-color: #7bd48e;
+}
+
+/*Explore button */
+
+.explore-container {
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.explore-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid  #2739db;
+    border-radius: 5px;
+    background-color: #2739db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.explore-btn.active {
+    background-color: #7bd48e;
+    color: #fff;
+    border-color: #7bd48e;
+}
+
+/*Locations Button*/
+
+.locations-container {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.locations-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid  #2739db;
+    border-radius: 5px;
+    background-color: #2739db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.locations-btn.active {
+    background-color: #7bd48e;
+    color: #fff;
+    border-color: #7bd48e;
+}
