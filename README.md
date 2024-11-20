@@ -1,4 +1,4 @@
-git clone https://github.com
-cd StormViz 
-npm install 
-npm run dev 
+##Clone the github repository 
+##cd StormViz 
+##npm install 
+##npm run dev 
